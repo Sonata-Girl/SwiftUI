@@ -11,14 +11,17 @@
 		6781A2AB2A0ACA60008016EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781A2AA2A0ACA60008016EB /* ContentView.swift */; };
 		6781A2AD2A0ACA60008016EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6781A2AC2A0ACA60008016EB /* Assets.xcassets */; };
 		6781A2B02A0ACA60008016EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6781A2AF2A0ACA60008016EB /* Preview Assets.xcassets */; };
+		67FBA8342A28F911007F0867 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67FBA8332A28F911007F0867 /* Kanit-Medium.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		6781A2A52A0ACA5F008016EB /* SwiftUIAngela.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIAngela.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6781A2A82A0ACA60008016EB /* SwiftUIAngelaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIAngelaApp.swift; sourceTree = "<group>"; };
-		6781A2AA2A0ACA60008016EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6781A2AA2A0ACA60008016EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; wrapsLines = 1; };
 		6781A2AC2A0ACA60008016EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6781A2AF2A0ACA60008016EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		67CE66F12A2D05EC0063FF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67FBA8332A28F911007F0867 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,7 @@
 		6781A29C2A0ACA5F008016EB = {
 			isa = PBXGroup;
 			children = (
+				67FBA8322A28F8EB007F0867 /* Fonts */,
 				6781A2A72A0ACA5F008016EB /* SwiftUIAngela */,
 				6781A2A62A0ACA5F008016EB /* Products */,
 			);
@@ -51,6 +55,7 @@
 		6781A2A72A0ACA5F008016EB /* SwiftUIAngela */ = {
 			isa = PBXGroup;
 			children = (
+				67CE66F12A2D05EC0063FF69 /* Info.plist */,
 				6781A2A82A0ACA60008016EB /* SwiftUIAngelaApp.swift */,
 				6781A2AA2A0ACA60008016EB /* ContentView.swift */,
 				6781A2AC2A0ACA60008016EB /* Assets.xcassets */,
@@ -65,6 +70,14 @@
 				6781A2AF2A0ACA60008016EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		67FBA8322A28F8EB007F0867 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				67FBA8332A28F911007F0867 /* Kanit-Medium.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6781A2B02A0ACA60008016EB /* Preview Assets.xcassets in Resources */,
+				67FBA8342A28F911007F0867 /* Kanit-Medium.ttf in Resources */,
 				6781A2AD2A0ACA60008016EB /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +284,7 @@
 				DEVELOPMENT_TEAM = RD3BV5S34P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAngela/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +314,7 @@
 				DEVELOPMENT_TEAM = RD3BV5S34P;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftUIAngela/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
