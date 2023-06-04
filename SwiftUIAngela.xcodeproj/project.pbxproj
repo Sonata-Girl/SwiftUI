@@ -11,6 +11,7 @@
 		6781A2AB2A0ACA60008016EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6781A2AA2A0ACA60008016EB /* ContentView.swift */; };
 		6781A2AD2A0ACA60008016EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6781A2AC2A0ACA60008016EB /* Assets.xcassets */; };
 		6781A2B02A0ACA60008016EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6781A2AF2A0ACA60008016EB /* Preview Assets.xcassets */; };
+		67CE66F32A2D228B0063FF69 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67CE66F22A2D228B0063FF69 /* InfoView.swift */; };
 		67FBA8342A28F911007F0867 /* Kanit-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 67FBA8332A28F911007F0867 /* Kanit-Medium.ttf */; };
 /* End PBXBuildFile section */
 
@@ -21,6 +22,7 @@
 		6781A2AC2A0ACA60008016EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6781A2AF2A0ACA60008016EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		67CE66F12A2D05EC0063FF69 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		67CE66F22A2D228B0063FF69 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		67FBA8332A28F911007F0867 /* Kanit-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kanit-Medium.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,6 +60,7 @@
 				67CE66F12A2D05EC0063FF69 /* Info.plist */,
 				6781A2A82A0ACA60008016EB /* SwiftUIAngelaApp.swift */,
 				6781A2AA2A0ACA60008016EB /* ContentView.swift */,
+				67CE66F22A2D228B0063FF69 /* InfoView.swift */,
 				6781A2AC2A0ACA60008016EB /* Assets.xcassets */,
 				6781A2AE2A0ACA60008016EB /* Preview Content */,
 			);
@@ -152,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6781A2AB2A0ACA60008016EB /* ContentView.swift in Sources */,
+				67CE66F32A2D228B0063FF69 /* InfoView.swift in Sources */,
 				6781A2A92A0ACA60008016EB /* SwiftUIAngelaApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

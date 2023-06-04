@@ -28,11 +28,9 @@ struct ContentView: View {
                          .foregroundColor(.white)
                          .font(.system(size: 20))
                      Divider()
-                     RoundedRectangle(cornerRadius: 30)
-                         .fill(Color.white)
-                         .frame(height: 50)
-                         .foregroundColor(.white)
-                         .overlay(Text("+ХХ УУУ ЕЕЕ ТТТ ООО").foregroundColor(.black))
+                     InfoView(text: "+ХХ УУУ ЕЕЕ ТТТ ООО", imageName: "phone.fill")
+                     InfoView(text: "@SonataGirl", imageName: "envelope.fill")
+
                  }
                  
              }
